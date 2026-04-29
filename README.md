@@ -1,91 +1,125 @@
 # 📊 Cognifyz Technologies – Data Analysis Internship Project
 
-## 📌 Project Overview
-This project was completed as part of the **Data Analysis Internship at Cognifyz Technologies**.  
-The primary objective was to analyze a real-world restaurant dataset and extract meaningful business insights using data analysis techniques.
+👨‍💻 **Author:** Vishv Bhavsar  
 
-The project demonstrates skills in **data cleaning, exploratory data analysis (EDA), visualization, and insight generation** using Python.
+---
+
+## 📌 Project Overview
+
+This project was completed as part of the **Data Analysis Internship at Cognifyz Technologies**. The objective of this project is to perform in-depth analysis on a real-world restaurant dataset and derive meaningful business insights using data-driven techniques.
+
+The project demonstrates practical implementation of **data preprocessing, exploratory data analysis (EDA), statistical reasoning, and visualization** using Python.
+
+---
+
+## 🎯 Problem Statement
+
+In the modern food industry, understanding customer preferences, pricing strategies, and service availability is crucial for business success. This project aims to analyze restaurant data to identify patterns, trends, and actionable insights that can help stakeholders make informed decisions.
 
 ---
 
 ## 🎯 Business Objectives
 
-- Identify top-performing cuisines
-- Analyze city-wise restaurant distribution
-- Study price range patterns
-- Examine the impact of online delivery on ratings
-- Explore correlation between votes and ratings
-- Identify popular restaurant chains
+- Identify the most popular and high-performing cuisines  
+- Analyze city-wise distribution of restaurants  
+- Study pricing patterns and affordability trends  
+- Evaluate the impact of online delivery services  
+- Analyze the relationship between customer votes and ratings  
+- Identify popular restaurant chains and their performance  
 
 ---
 
 ## 📂 Dataset Description
 
-The dataset contains information about restaurants including:
+The dataset contains structured information about various restaurants, including:
 
-- Restaurant Name
-- City & Location
-- Cuisines Offered
-- Price Range
-- Ratings & Votes
-- Online Delivery Availability
+- Restaurant Name and ID  
+- City and Location details  
+- Cuisines offered  
+- Price range classification  
+- Customer ratings and votes  
+- Online delivery availability  
+- Table booking options  
 
-This dataset is used to uncover patterns and trends in the food and restaurant industry.
-
----
-
-## 🛠️ Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Google Colab
+This dataset represents real-world business data useful for market and customer behavior analysis.
 
 ---
 
-## 🔧 Data Cleaning & Preprocessing
+## 🛠️ Technologies and Tools Used
 
-- Removed duplicate records
-- Handled missing values
-- Filtered invalid ratings (rating = 0)
-- Standardized dataset for analysis
+- **Programming Language:** Python  
+- **Libraries:** Pandas, NumPy  
+- **Visualization Tools:** Matplotlib, Seaborn  
+- **Development Environment:** Google Colab / Jupyter Notebook  
+
+---
+
+## 🔧 Data Preprocessing
+
+The dataset was cleaned and prepared for analysis using the following steps:
+
+- Removal of duplicate records  
+- Handling of missing and null values  
+- Filtering out invalid or zero ratings  
+- Data type corrections and formatting  
+- Standardization for consistency in analysis  
 
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-The following analyses were performed:
+A structured approach was followed to explore and analyze the dataset:
 
-### 1️⃣ Top Cuisines Analysis
-Identified the most popular cuisines based on frequency.
+### 🔹 Cuisine Analysis
+- Identified the most frequently occurring cuisines  
+- Highlighted customer preferences and demand trends  
 
-### 2️⃣ City-wise Restaurant Distribution
-Analyzed which cities have the highest number of restaurants.
+### 🔹 City-wise Analysis
+- Determined cities with the highest restaurant density  
+- Analyzed geographic concentration of food businesses  
 
-### 3️⃣ Price Range Analysis
-Studied how restaurants are distributed across different price categories.
+### 🔹 Price Range Analysis
+- Evaluated distribution of restaurants across different price categories  
+- Studied affordability patterns  
 
-### 4️⃣ Rating Distribution
-Visualized how ratings are spread across the dataset.
+### 🔹 Rating Analysis
+- Analyzed distribution of ratings across restaurants  
+- Identified high-performing and low-performing segments  
 
-### 5️⃣ Online Delivery Analysis
-Compared restaurants with and without online delivery options.
+### 🔹 Online Delivery Analysis
+- Compared restaurants offering online delivery vs those that do not  
+- Assessed its impact on customer ratings  
 
-### 6️⃣ Votes vs Rating Correlation
-Analyzed relationship between customer engagement (votes) and ratings.
+### 🔹 Correlation Analysis
+- Examined relationship between number of votes and ratings  
+- Identified patterns in customer engagement  
 
 ---
 
-## 📈 Key Insights
+## 📈 Key Findings and Insights
 
-- Most restaurants fall within the **mid price range**
-- A few cuisines dominate the dataset, showing strong customer preference
-- Cities like **Makati City and Mandaluyong City** have high restaurant density
-- Restaurants with higher votes generally tend to have better ratings
-- Online delivery is not widely available across all restaurants
+- A majority of restaurants fall within the **mid-range pricing category**, indicating balanced affordability  
+- Certain cuisines dominate the dataset, reflecting strong customer demand  
+- High restaurant density is observed in specific urban areas, suggesting competitive markets  
+- Restaurants with higher votes tend to have better ratings, indicating reliability of customer feedback  
+- Online delivery services are not uniformly available, but can influence customer satisfaction  
 
 ---
 
 ## 📁 Project Structure
+
+Cognifyz-Data-Analysis-Internship
+│
+├── data/
+│   └── Dataset.csv
+│
+├── notebooks/
+│   └── EDA_Cognifyz_Data_Analysis.ipynb
+│
+├── images/
+│   └── Visualizations (PNG files)
+│
+├── report/
+│   └── Data_Analysis_Report.pdf
+│
+└── README.md
